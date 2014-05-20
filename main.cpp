@@ -6,7 +6,7 @@ int main()
 {
     cout << "GOST 28147-89" << endl;
     cout << "Start" << endl;
-    char key[] = "30091993300919933009199330091993\0";
+    char key[] = "58943658563456738695486799257846\0";
     GOST X(key);
 
     X.Crypt();
